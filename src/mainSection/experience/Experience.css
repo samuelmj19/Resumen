@@ -1,0 +1,27 @@
+.Experience{
+    padding: 0 5%;
+}
+.ExperienceArticle{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 70px 0;
+
+}
+.Experience-title{
+    font-size: 2.5rem;
+    color: #222;
+}
+.Experience-institution{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.Experience-description{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.Experience-date{
+    color: #13169d;
+    font-size: 500;
+    font-size: 1.6rem;
+    justify-self: end;
+}

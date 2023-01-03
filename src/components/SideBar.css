@@ -1,0 +1,36 @@
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.SideBar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    height: 100%;
+    width: 275px;
+    background-color: #000591;
+}
+.NavBar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+    color: #6a68c9;
+    font-size: 1.8rem;
+
+}
+.NavBar li{
+    cursor: pointer;
+}
+.NavBar li:hover{
+    color: #9997da;
+    
+}
+.UserPicture img{
+    width: 175px;
+    border-radius: 50%;
+}

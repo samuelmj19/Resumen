@@ -1,0 +1,17 @@
+.Lists{
+    display: flex;
+}
+.Lists-container{
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    height: 200px;
+    padding-left: 3%;
+}
+.Lists-container li{
+    list-style: circle;
+}
