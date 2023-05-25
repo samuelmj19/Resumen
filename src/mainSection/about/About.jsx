@@ -4,7 +4,7 @@ import UserInfo from './UserInfo'
 
 const About = () => {
   return (
-    <div className='About'>
+    <div className='About' id='ABOUT'>
         <UserInfo/>
         <div className='User-description'>
           <p>I´m a Web Developer actually in the area of Front-End using html, css, vanilla JavaScript and React.JS.

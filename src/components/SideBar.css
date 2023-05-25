@@ -17,18 +17,22 @@ li{
 .NavBar{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     font-weight: bold;
     color: #6a68c9;
     font-size: 1.8rem;
-
 }
-.NavBar li{
+.NavBar li {
+    height: 20px;
+}
+.NavBar li a{
+    color: #6a68c9;
     cursor: pointer;
+    transition: 0.3s;
 }
-.NavBar li:hover{
+.NavBar li a:hover{
     color: #9997da;
-    
+    font-size: 2rem;
 }
 .UserPicture img{
     width: 175px;

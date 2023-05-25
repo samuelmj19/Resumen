@@ -17,7 +17,7 @@ function Certificates() {
     ]
   return (
     <div>
-        <div className='Skills sectionPage'>
+        <div className='Skills sectionPage' id='CERTIFICATES'>
             <h2 className="section-title">Certificates</h2>
             <Lists list={certificateList}/>
         </div>

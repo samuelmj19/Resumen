@@ -14,7 +14,7 @@ function Skills() {
     "Next.JS",
   ]
   return (
-    <div className='Skills sectionPage'>
+    <div className='Skills sectionPage' id='SKILLS'>
       <h2 className="section-title">Skills</h2>
       <Lists list={list}/>
     </div>
